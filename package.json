@@ -1,6 +1,8 @@
 {
   "name": "to-do-list",
   "version": "0.1.0",
+  "homepage": "https://Al-gharqawy/github.io/To-dolist",
+
   "private": true,
   "dependencies": {
     "bootstrap": "^5.3.3",
@@ -15,7 +17,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+       "predeploy": "npm run build",
+       "deploy": "gh-pages -d deploy"
+
+
   },
   "eslintConfig": {
     "extends": [
